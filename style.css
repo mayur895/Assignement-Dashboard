@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+    margin-right: 20px;
+    color: #333;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tab {
+    margin-right: 15px;
+    color: #888;
+    cursor: pointer;
+}
+
+.tab.active {
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.status, .currency {
+    margin-left: 15px;
+    color: #555;
+    cursor: pointer;
+}
+
+.parent{
+    /* border: 2px solid black; */
+   
+}
+.hero-section1{
+    /* border: 2px solid rgb(0, 255, 38); */
+    display: flex;
+    flex-direction: reverse;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.box{
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+.box1{
+    border: 2px solid rgb(0, 8, 255);
+    height: 300px;
+    width: 15%;
+}
+.box2{
+    border: 2px solid rgb(255, 140, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 20px;
+    flex-wrap: wrap;
+    /* height: 300px; */
+    width: 45%;
+     /* width: 300px;  */
+     padding: 15px; 
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin-bottom: 10px; 
+}
+.box3{
+    /* border: 2px solid rgb(0, 229, 255); */
+    height: 300px;
+    width: 25%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+}
+/* .box4 {
+    border: 2px solid black;
+    height: 120px;
+    width: 45%;
+}
+.box5{
+    border: 2px solid black;
+    height: 120px;
+    width: 45%;
+}
+.box6{
+    border: 2px solid black;
+    height: 120px;
+    width: 45%;
+}
+.box7{
+    border: 2px solid black;
+    height: 120px;
+    width: 45%;
+} */
+
+.hero-section2{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px auto auto;
+}
+.left{
+    border: 2px solid yellowgreen;
+    height: 150px;
+    width: 64.5%;
+}
+.right{
+    border: 2px solid rgb(104, 40, 0);
+    width: 25%;
+    height: 180px;
+}
+.hero-section3{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px auto auto;
+}
+.foot-left{
+    border: 2px solid yellowgreen;
+    height: 250px;
+    width: 64.5%;
+}
+.foot-right{
+    border: 2px solid rgb(104, 40, 0);
+    width: 25%;
+    height: 240px;
+}
+.balance-card {
+    background-color: #008CFF;
+    color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 80%;
+}
+
+.title {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+
+.balance {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-title {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.stat-value {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 48%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.primary {
+    background-color: white;
+    color: black;
+}
+
+/* .secondary {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+} */
+
+
+.boxi {
+    width: 280px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+.boxi h2 {
+    margin: 0;
+    font-size: 20px;
+}
+.apy {
+    font-size: 14px;
+    color: gray;
+}
+.percentage {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.stake {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.button {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.box2 h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apy {
+    font-size: 14px;
+    color: gray;
+}
+
+.box4 {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+}
+
+.min-stake {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+
+.stake {
+    font-size: 18px;
+}
+
+
+
+
+/* Staking Container */
+.staking-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+/* Left Side (Rewards Query) */
+.staking-left {
+    display: flex;
+    flex-direction: column;
+    width: 69%;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+/* Title */
+.staking-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Staking Box - Horizontal Layout */
+.staking-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+/* Each Input Box */
+.staking-box div {
+    display: flex;
+    flex-direction: column;
+    width: 23%;  /* Makes sure 4 items fit in one row */
+}
+
+/* Labels */
+.staking-box label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+/* Input Fields */
+.staking-box input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #fff;
+}
+
+
+
+/* Right Side (Staking Reward) */
+.staking-right {
+    flex: 1;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.staking-right p {
+    margin: 10px 0;
+    font-size: 0.95rem;
+}
+
+.claim-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.claim-link:hover {
+    background: #0056b3;
+}
+
+
+
+
+

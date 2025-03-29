@@ -7,6 +7,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #96d0ff;
 }
 
 .navbar {
@@ -77,7 +78,7 @@ body {
     width: 15%;
 }
 .box2{
-    border: 2px solid rgb(255, 140, 0);
+    /* border: 2px solid rgb(255, 140, 0); */
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -135,12 +136,12 @@ body {
     margin: 30px 0px auto auto;
 }
 .left{
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
     height: 150px;
     width: 64.5%;
 }
 .right{
-    border: 2px solid rgb(104, 40, 0);
+    /* border: 2px solid rgb(104, 40, 0); */
     width: 25%;
     height: 180px;
 }
@@ -152,12 +153,12 @@ body {
     margin: 30px 0px auto auto;
 }
 .foot-left{
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
     height: 250px;
     width: 64.5%;
 }
 .foot-right{
-    border: 2px solid rgb(104, 40, 0);
+    /* border: 2px solid rgb(104, 40, 0); */
     width: 25%;
     height: 240px;
 }

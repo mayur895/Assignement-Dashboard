@@ -116,12 +116,56 @@
             <a href="#" class="claim-link">Claim Rewards</a>
         </div>
     </div>
+    <div class="staking-wrapper">
+        <div class="staking-left-section">
+            <label for="asset">Select Asset</label>
+            <select id="asset">
+                <option>Ontology</option>
+            </select>
 
+            <label for="lockup">Lock-Up Periods</label>
+            <select id="lockup">
+                <option>6 Month</option>
+            </select>
 
-      <div class="hero-section3">
-        <div class="foot-left">left</div>
-        <div class="foot-right">right</div>
-      </div>
-    </div>
+            <label for="amount">Amount to stake</label>
+            <input type="text" id="amount" value="30035.64 ONT" disabled>
+
+            <label for="validator">Stake Validator</label>
+            <select id="validator">
+                <option>PoS Blockchain</option>
+            </select>
+
+            <label for="reward">Reward Claiming</label>
+            <select id="reward">
+                <option>6 Month</option>
+            </select>
+
+            <div class="custom-staking-option">
+                <img src="icon.png" alt="Custom Staking">
+                <span>Custom Staking</span>
+            </div>
+        </div>
+
+        <div class="staking-right-section">
+            <div class="summary-header-container">
+                <h3>Summary</h3>
+                <img src="copy.png" alt="Copy">
+            </div>
+            <div class="summary-info">
+                <p><span>Stake Date</span> <span>2024-02-15 05:32</span></p>
+                <p><span>Interest Period</span> <span>6 Month</span></p>
+                <p><span>Stake End Date</span> <span>2024-08-15 05:32</span></p>
+                <p><span>Redemption Date</span> <span>2024-08-20</span></p>
+                <p><span>Est. APY</span> <span>25.12%</span></p>
+                <p><span>Estimated Interest</span> <span>4025.506 ONT</span></p>
+            </div>
+
+            <div class="staking-buttons">
+                <button class="cancel-btn">Cancel Staking</button>
+                <button class="approve-btn">Approve Staking</button>
+            </div>
+        </div>
+    </div>  
   </body>
 </html>

@@ -398,4 +398,96 @@ body {
 
 
 
+.staking-wrapper {
+    margin-left: 10px;
+    display: flex;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+
+.staking-left-section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.staking-left-section label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.staking-left-section select,
+.staking-left-section input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.custom-staking-option {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.custom-staking-option img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.staking-right-section {
+    flex: 1;
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+}
+
+.summary-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-header-container img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.summary-info p {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.staking-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.cancel-btn,
+.approve-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cancel-btn {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.approve-btn {
+    background: #007bff;
+    color: #fff;
+}
 
